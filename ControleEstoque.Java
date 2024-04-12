@@ -15,7 +15,7 @@ public class ControleEstoque {
             System.out.println("3 - Exibir Estoque");
             System.out.println("4 - Sair");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // método acrescentado para que seja possível capturar a linha inteira da entrada - e vitar eventuais problemas para os casos em que a entrada seja composta por mais de uma palavra
+            scanner.nextLine(); // método acrescentado para que seja possível capturar a linha inteira da entrada - e evitar eventuais problemas para os casos em que a entrada seja composta por mais de uma palavra
 
             switch (opcao) {
                 case 1:
